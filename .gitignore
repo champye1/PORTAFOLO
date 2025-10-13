@@ -1,0 +1,29 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Node modules (si usas Node.js)
+node_modules/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
