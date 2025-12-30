@@ -9,7 +9,7 @@
     <meta name="author" content="Esteban Alejandro Venegas Cantillano">
     
     <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://raw.githubusercontent.com; connect-src 'self';">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -57,44 +57,48 @@
             <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <i class="fab fa-java"></i>
+                        <img src="assets/icons/javascript.svg" alt="JavaScript" title="JavaScript">
+                        <img src="assets/icons/supabase.svg" alt="Supabase" title="Supabase">
                     </div>
-                    <h3>Sistema de Gestión de Inventario</h3>
-                    <p>Aplicación Java con Spring Boot para gestión de inventario empresarial con base de datos MySQL</p>
-                    <a href="#" class="portfolio-link">
+                    <h3>Sistema de Gestión Clínica</h3>
+                    <p>Sistema completo de gestión de pabellón desarrollado con JavaScript y Supabase.</p>
+                    <a href="https://clinica-liard.vercel.app/login" target="_blank" class="portfolio-link">
                         Ver Proyecto <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
                 
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <i class="fab fa-python"></i>
+                        <img src="assets/icons/vue.svg" alt="Vue.js" title="Vue.js">
+                        <img src="assets/icons/django.svg" alt="Django" title="Django">
                     </div>
-                    <h3>API REST con Django</h3>
-                    <p>API desarrollada en Python con Django para gestión de datos y análisis de sistemas</p>
-                    <a href="#" class="portfolio-link">
+                    <h3>Sistema DyD</h3>
+                    <p>Aplicación full-stack desarrollada con Vue.js en el frontend y Django en el backend.</p>
+                    <a href="https://github.com/champye1/DyD" target="_blank" class="portfolio-link">
                         Ver Proyecto <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
                 
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <i class="fab fa-react"></i>
+                        <img src="assets/icons/flask.svg" alt="Flask" title="Flask">
+                        <img src="assets/icons/python.svg" alt="Python" title="Python">
+                        <img src="assets/icons/html5.svg" alt="HTML5" title="HTML5">
                     </div>
-                    <h3>Aplicación Web React</h3>
-                    <p>Interfaz de usuario moderna desarrollada con React, JavaScript y Tailwind CSS</p>
-                    <a href="#" class="portfolio-link">
+                    <h3>API Flask</h3>
+                    <p>API RESTful y aplicación web construida con Flask y Python para gestión de endpoints.</p>
+                    <a href="https://github.com/champye1/flaskprueba" target="_blank" class="portfolio-link">
                         Ver Proyecto <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
                 
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <i class="fas fa-database"></i>
+                        <img src="assets/icons/typescript.svg" alt="TypeScript" title="TypeScript">
                     </div>
-                    <h3>Sistema de Base de Datos</h3>
-                    <p>Diseño e implementación de bases de datos optimizadas con PostgreSQL y MongoDB</p>
-                    <a href="#" class="portfolio-link">
+                    <h3>Sistema de Tickets</h3>
+                    <p>Sistema de gestión de tickets desarrollado con TypeScript, enfocado en tipado estático y escalabilidad.</p>
+                    <a href="https://github.com/champye1/Ticket-prueba" target="_blank" class="portfolio-link">
                         Ver Proyecto <i class="fas fa-external-link-alt"></i>
                     </a>
                 </div>
@@ -109,55 +113,60 @@
             <div class="articles-grid">
                 <article class="article-item">
                     <div class="article-image">
-                        <i class="fab fa-java"></i>
+                        <img src="assets/icons/vue.svg" alt="Vue.js" title="Vue.js">
+                        <img src="assets/icons/django.svg" alt="Django" title="Django">
                     </div>
-                    <h3>Fundamentos de Programación en Java</h3>
-                    <p>Guía completa sobre los conceptos básicos y avanzados de programación orientada a objetos en Java</p>
+                    <h3>Arquitectura Full-Stack: Vue.js + Django</h3>
+                    <p>Análisis de la integración entre un frontend reactivo y un backend robusto en sistemas empresariales (Caso de estudio: Proyecto DyD).</p>
                     <a href="#" class="article-link">Leer más</a>
                 </article>
                 
                 <article class="article-item">
                     <div class="article-image">
-                        <i class="fab fa-python"></i>
+                        <img src="assets/icons/supabase.svg" alt="Supabase" title="Supabase">
+                        <img src="assets/icons/postgresql.svg" alt="SQL" title="SQL">
                     </div>
-                    <h3>Desarrollo Web con Django</h3>
-                    <p>Creación de aplicaciones web robustas y escalables utilizando el framework Django de Python</p>
+                    <h3>Supabase y SQL en Sistemas Críticos</h3>
+                    <p>Implementación de gestión de datos en tiempo real y seguridad a nivel de fila (RLS) para aplicaciones clínicas.</p>
                     <a href="#" class="article-link">Leer más</a>
                 </article>
                 
                 <article class="article-item">
                     <div class="article-image">
-                        <i class="fas fa-database"></i>
+                        <img src="assets/icons/typescript.svg" alt="TypeScript" title="TypeScript">
+                        <img src="assets/icons/javascript.svg" alt="JavaScript" title="JavaScript">
                     </div>
-                    <h3>Diseño de Bases de Datos Eficientes</h3>
-                    <p>Mejores prácticas para el diseño y optimización de bases de datos relacionales y NoSQL</p>
+                    <h3>La Importancia de TypeScript en 2024</h3>
+                    <p>Por qué migrar de JavaScript a TypeScript mejora la escalabilidad y reduce la deuda técnica en proyectos de largo plazo.</p>
                     <a href="#" class="article-link">Leer más</a>
                 </article>
                 
                 <article class="article-item">
                     <div class="article-image">
-                        <i class="fas fa-tools"></i>
+                        <img src="assets/icons/bash.svg" alt="Terminal" title="Troubleshooting">
                     </div>
-                    <h3>Soporte Técnico Avanzado</h3>
-                    <p>Técnicas y herramientas para resolver problemas técnicos complejos en equipos informáticos</p>
+                    <h3>De Soporte Técnico a Desarrollo de Software</h3>
+                    <p>Cómo la experiencia en resolución de problemas de hardware (Troubleshooting) se traduce en mejores habilidades de debugging.</p>
                     <a href="#" class="article-link">Leer más</a>
                 </article>
                 
                 <article class="article-item">
                     <div class="article-image">
-                        <i class="fas fa-code-branch"></i>
+                        <img src="assets/icons/flask.svg" alt="Flask" title="Flask">
+                        <img src="assets/icons/django.svg" alt="Django" title="Django">
                     </div>
-                    <h3>Control de Versiones con Git</h3>
-                    <p>Gestión eficiente de código fuente y colaboración en proyectos de desarrollo</p>
+                    <h3>Flask vs Django: Eligiendo el Framework Correcto</h3>
+                    <p>Comparativa técnica sobre cuándo utilizar un micro-framework frente a una solución "baterías incluidas".</p>
                     <a href="#" class="article-link">Leer más</a>
                 </article>
                 
                 <article class="article-item">
                     <div class="article-image">
-                        <i class="fas fa-users"></i>
+                        <img src="assets/icons/postman.svg" alt="API Design" title="API Design">
+                        <img src="assets/icons/python.svg" alt="Python" title="Python">
                     </div>
-                    <h3>Metodologías Ágiles en Desarrollo</h3>
-                    <p>Implementación de Scrum, Kanban y Extreme Programming en proyectos de software</p>
+                    <h3>Diseño de APIs RESTful Escalables</h3>
+                    <p>Buenas prácticas en la estructuración de endpoints, manejo de errores y documentación para consumo frontend.</p>
                     <a href="#" class="article-link">Leer más</a>
                 </article>
             </div>
@@ -214,54 +223,54 @@
             <h2 class="section-title">Tecnologías</h2>
             <div class="skills-grid">
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java">
+                    <img src="assets/icons/java.svg" alt="Java">
                     <span>Java</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
+                    <img src="assets/icons/python.svg" alt="Python">
                     <span>Python</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <img src="assets/icons/javascript.svg" alt="JavaScript">
                     <span>JavaScript</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript">
+                    <img src="assets/icons/typescript.svg" alt="TypeScript">
                     <span>TypeScript</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React">
+                    <img src="assets/icons/react.svg" alt="React">
                     <span>React</span>
                 </div>
                 <div class="skill-item">
                     <div style="display: flex; justify-content: center; gap: 10px;">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3">
+                        <img src="assets/icons/html5.svg" alt="HTML5">
+                        <img src="assets/icons/css3.svg" alt="CSS3">
                     </div>
                     <span>HTML/CSS</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL">
+                    <img src="assets/icons/mysql.svg" alt="MySQL">
                     <span>MySQL</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                    <img src="assets/icons/postgresql.svg" alt="PostgreSQL">
                     <span>PostgreSQL</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                    <img src="assets/icons/mongodb.svg" alt="MongoDB">
                     <span>MongoDB</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git">
+                    <img src="assets/icons/git.svg" alt="Git">
                     <span>Git</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub">
+                    <img src="assets/icons/github.svg" alt="GitHub">
                     <span>GitHub</span>
                 </div>
                 <div class="skill-item">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="Django">
+                    <img src="assets/icons/django.svg" alt="Django">
                     <span>Django</span>
                 </div>
             </div>
