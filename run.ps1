@@ -8,7 +8,7 @@ Write-Host "Presiona Ctrl+C para detener el servidor" -ForegroundColor Red
 Write-Host ""
 
 # Cambiar al directorio del proyecto
-Set-Location -Path "C:\Users\estev\Downloads\web"
+Set-Location -Path $PSScriptRoot
 
 # Iniciar servidor
 python -m http.server 8000

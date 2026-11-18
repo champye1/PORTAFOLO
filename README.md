@@ -1,53 +1,34 @@
-# Portfolio - Esteban Alejandro Venegas Cantillano
+# Portafolio · Esteban Venegas Cantillano
 
-## 🎯 Descripción
-Portfolio personal de Esteban Alejandro Venegas Cantillano, Analista Programador en formación con experiencia en soporte técnico.
+Técnico en Soporte TI e Infraestructura · Analista Programador (INACAP) · Viña del Mar, Chile.
 
-## 🛠️ Tecnologías Utilizadas
-- HTML5
-- CSS3
-- JavaScript
-- Font Awesome
-- Google Fonts
+Sitio estático (HTML, CSS y JavaScript sin dependencias) con mi experiencia, proyectos, habilidades y CV descargable.
 
-## 📱 Características
-- Diseño responsivo
-- Animaciones suaves
-- Efectos de hover
-- Formulario de contacto funcional
-- Sección de experiencia laboral
-- Portfolio de proyectos
-- Artículos técnicos
+## Características
 
-## 🚀 Instalación y Uso
+- Contenido en HTML semántico y texto plano: legible por buscadores, lectores de pantalla y sistemas de reclutamiento (ATS).
+- Datos estructurados `schema.org/Person` (JSON-LD).
+- CV en PDF descargable (`assets/CV_Esteban_Venegas.pdf`).
+- Versión imprimible: `Ctrl + P` genera un CV de una columna.
+- Filtro de proyectos por área (Soporte TI, Full Stack, Backend).
+- Tema claro / oscuro, diseño responsivo y respeto por `prefers-reduced-motion`.
+- Content Security Policy estricta, sin scripts de terceros.
 
-### Opción 1: Servidor Local
+## Ejecutar localmente
+
 ```bash
-# Clona el repositorio
-git clone https://github.com/tu-usuario/portfolio.git
-
-# Navega al directorio
-cd portfolio
-
-# Ejecuta el servidor local
 python -m http.server 8000
-
-# Abre en el navegador
-http://localhost:8000
+# http://localhost:8000
 ```
 
-### Opción 2: GitHub Pages
-1. Haz fork de este repositorio
-2. Ve a Settings > Pages
-3. Selecciona la rama main
-4. Tu sitio estará disponible en: `https://tu-usuario.github.io/portfolio`
+O en Windows: `run.bat` / `run.ps1`.
 
-## 📞 Contacto
-- **Email:** Este.venegas10@outlook.cl
-- **Teléfono:** +569 89380373
-- **LinkedIn:** [Esteban Venegas](https://www.linkedin.com/in/esteban-venegas-061b21282/)
-- **Ubicación:** Concepción, Chile
+## Actualizar el CV
 
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Reemplaza `assets/CV_Esteban_Venegas.pdf` manteniendo el mismo nombre de archivo.
 
+## Contacto
+
+- Email: estebanv144@gmail.com
+- LinkedIn: [esteban-venegas-b06131281](https://www.linkedin.com/in/esteban-venegas-b06131281)
+- GitHub: [champye1](https://github.com/champye1)
